@@ -1,0 +1,84 @@
+.couleur {
+  color: #2a2e33; }
+
+nav {
+  height: 8vh; }
+
+.jb {
+  text-align: left;
+  background: -webkit-linear-gradient(12deg, #d3c8b5, #821812);
+  background: -webkit-linear-gradient(78deg, #d3c8b5, #821812);
+  background: -o-linear-gradient(78deg, #d3c8b5, #821812);
+  background: linear-gradient(12deg, #d3c8b5, #821812);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0; }
+
+.jb h1, .jb p:nth-child(2) {
+  color: white;
+  font-weight: bold; }
+
+@media (max-width: 768px) {
+  .jb h1 {
+    font-size: 3em; } }
+
+.jb h1 span {
+  color: black; }
+
+.jb p:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 15px; }
+
+.jb p.lead a {
+  background-color: #58221F;
+  color: white;
+  border: 1px solid #58221F; }
+
+footer {
+  color: #fff;
+  padding-top: 30px; }
+  footer .container .row-30 div div .brand {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold; }
+    footer .container .row-30 div div .brand span {
+      color: #fff; }
+  footer .container .row-30 div div p:nth-child(2) {
+    margin-top: 30px; }
+    footer .container .row-30 div div p:nth-child(2) span {
+      color: #fff; }
+  footer .container .row-30 div.brdr {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff; }
+  footer .nav-list {
+    list-style: none;
+    padding: 0; }
+    footer .nav-list li a {
+      color: #fff; }
+  footer .social-container {
+    margin-top: 30px; }
+    footer .social-container div.col {
+      padding: 15px;
+      text-align: center;
+      background-color: #2a2e33;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      footer .social-container div.col:hover {
+        background-color: #fff;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        footer .social-container div.col:hover a {
+          color: black;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+      footer .social-container div.col a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
